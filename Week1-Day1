@@ -1,0 +1,52 @@
+//Q1.
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+   int x,y;
+        Scanner input=new Scanner(System.in);
+        x=input.nextInt();
+        y=input.nextInt();
+        if(x>=0&&y>=0)
+        System.out.println(x+"-"+y);
+        else
+        System.out.println("Invalid Input");
+  
+    }
+}
+
+//Q2.
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+  double x,y,z;
+        Scanner input=new Scanner(System.in);
+        x=input.nextDouble();
+        y=input.nextDouble();
+        z=input.nextDouble();
+double mean;
+        double a=3;
+        if(x>1&&x<1000&&y>1&&y<1000&&y>1&&y<1000)
+        {
+         mean=((x+y+z)/a);
+            mean=mean-0.055;
+           String num = String.format("%.1f", mean);
+            System.out.println(num);
+        }
+  
+       
+    }
+}
